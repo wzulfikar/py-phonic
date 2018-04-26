@@ -1,0 +1,17 @@
+# Server Config
+app:
+  port: 8000
+  storage: ./storage
+  host: example.com
+  event_url: example.com/events
+
+gcloud: 
+  # your cred file must have permissions to:
+  # 1. read/write cloud storage (Storage Admin)
+  # 2. read/write datastore (Cloud Datastore User)
+  #
+  # follow steps here to generate the cred file:
+  # https://cloud.google.com/storage/docs/authentication#generating-a-private-key
+  cred_file: ./config/MyProject-0357f2847c42.json
+  bucket: my-bucket
+

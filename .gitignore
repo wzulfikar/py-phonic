@@ -1,0 +1,4 @@
+app.yml
+storage
+config
+!config/*.sample.*
